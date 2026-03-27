@@ -29,7 +29,7 @@ allprojects {
 // app/build.gradle
 dependencies {
     // AGenUI SDK
-    implementation 'com.amap.agenui:agenui-sdk:1.0.1'
+    implementation 'com.amap.agenui:agenui-sdk:0.9.8'
 }
 ```
 
