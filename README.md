@@ -39,11 +39,11 @@ dependencies {
 // oh-package.json5
 {
   "dependencies": {
-    "@ohos/agenui": "0.9.8"
+    "@agenui/agenui": "0.9.8"
   }
 }
 // install
-ohpm install @ohos/agenui
+ohpm install @agenui/agenui
 ```
 
 ## Examples
