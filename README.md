@@ -19,19 +19,31 @@ pod 'AGenUI'
 
 ```groovy
 // settings.gradle
-include ':agenui-sdk'
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
 
 // app/build.gradle
-implementation project(':agenui-sdk')
+dependencies {
+    // AGenUI SDK
+    implementation 'com.amap.agenui:agenui-sdk:1.0.1'
+}
 ```
 
 ### HarmonyOS (ohpm)
 
 ```json5
 // oh-package.json5
-"dependencies": {
-  "@agenui/agenui": "file:../agenui"
+{
+  "dependencies": {
+    "@ohos/agenui": "0.9.8"
+  }
 }
+// install
+ohpm install @ohos/agenui
 ```
 
 ## Examples
