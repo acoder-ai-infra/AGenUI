@@ -10,7 +10,7 @@
 ### Installation
 
 ```ruby
-pod 'AGenUI'
+pod 'AGenUI', :git => 'https://github.com/acoder-ai-infra/AGenUI-A2UI-iOS.git', :tag => '0.9.8'
 ```
 
 ### Usage
