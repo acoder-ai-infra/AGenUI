@@ -8,7 +8,6 @@ target 'Playground' do
   # SSZipArchive - Utility class for zipping and unzipping files
   # https://github.com/ZipArchive/ZipArchive
   pod 'SSZipArchive'
-  
   pod 'AGenUI', :git => 'https://github.com/acoder-ai-infra/AGenUI-A2UI-iOS.git', :tag => '0.9.8'
 
 end
