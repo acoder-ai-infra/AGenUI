@@ -6,6 +6,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@agenui/agenui": "file:./har/agenui.har"
+    "@agenui/agenui": "0.9.8",
   }
 }
