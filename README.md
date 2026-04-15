@@ -7,6 +7,8 @@
 - **Custom styles.** Every visual property of every component is fully customizable through the A2UI protocol.
 - **Custom themes.** Register your own theme JSON and DesignToken set to match your brand; switch between presets at any time.
 
+<img src="preview/a2ui_rendering_effect.png" alt="Gallery of A2UI components" height="720">
+
 ## Installation
 
 ### iOS (CocoaPods) 
